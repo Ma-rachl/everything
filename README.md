@@ -21,3 +21,11 @@ Links to Project `README.md`
 3. `yarn install`
 
 When adding new dependencies, use `yarn add` or its dev dependency equivalent. Thanks to Nx, each package will only be installed once, and each app knows how to bundle itself correctly based on its dependencies.
+##------
+
+##  Three things I would do to improve the quality of the codebase 
+1. Testing. More testing would allow for better knowledge on the issues that may arise from the code. It also clarifies the expected inputs and outputs, so you can narrow down the intention of each function in your program. 
+2. Documentation. Complete documentation would make it easier for others to read the code and be able to make changes faster in the future. 
+3. Styling. I did not change class or variable names in this instance because of the simplicity of the program. However, if brought to a larger scale, or used for a different purpose. Class names and variable names could be more intuitive and descriptive. 
+
+I implemented QR codes for each submitted link
